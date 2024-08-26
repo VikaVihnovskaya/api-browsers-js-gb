@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "SWIMMING",
+    "time": "14.00 - 15.00",
+    "maxCountVisitors": 10,
+    "recordVisitors": 6,
+    "yourParticipation": "false"
+  },
+  {
+    "id": 2,
+    "title": "AQUA FITNESS",
+    "time": "13.00 - 14.00",
+    "maxCountVisitors": 15,
+    "recordVisitors": 9,
+    "yourParticipation": "false"
+  },
+  {
+    "id": 3,
+    "title": "YOGA",
+    "time": "12.00 - 13.00",
+    "maxCountVisitors": 10,
+    "recordVisitors": 8,
+    "yourParticipation": "false"
+  },
+  {
+    "id": 4,
+    "title": "PILATES",
+    "time": "10.00 - 11.00",
+    "maxCountVisitors": 16,
+    "recordVisitors": 12,
+    "yourParticipation": "false"
+  }
+]
