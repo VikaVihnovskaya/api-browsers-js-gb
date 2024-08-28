@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Slider</title>
+</head>
+<body>
+<div class="container">
+  <div class="slider">
+    <h1>Choose your favorite cat!</h1>
+    <ul class="slider__list">
+      <li class="slider__item item-1 slide__active" data-slide="1">
+        <img src="https://i.postimg.cc/cLVh9nKk/2.png" alt="Рыжий пушистый кот в джинсах">
+      </li>
+      <li class="slider__item item-2" data-slide="2">
+        <img src="https://i.postimg.cc/nhsTGkLQ/1.png" alt="Белый пушистый кот">
+      </li>
+      <li class="slider__item item-3" data-slide="3">
+        <img src="https://i.postimg.cc/4NxWmZkP/3.png" alt="Бело-рыжий пушистый кот">
+      </li>
+      <li class="slider__item item-4" data-slide="4">
+        <img src="https://i.postimg.cc/jd3Zf9Rb/7.png" alt="Золотистый пушистый кот">
+      </li>
+    </ul>
+    <button class="button-prev button" type="button">Previous image</button>
+    <button class="button-next button" type="button">Next image</button>
+    <div class="pagination-box">
+      <button data-pagination="1" class="pagination"></button>
+      <button data-pagination="2" class="pagination"></button>
+      <button data-pagination="3" class="pagination"></button>
+      <button data-pagination="4" class="pagination"></button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
